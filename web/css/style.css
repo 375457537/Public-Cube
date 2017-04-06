@@ -4,3 +4,19 @@
 .mb10{margin-bottom: 10px;}
 .mr0{margin-right: 0;}
 .br{border-right: 1px solid #ccc;}
+/*nav*/
+.nav{margin-top: 20px;}
+.nav .logo{margin-right: 20px;}
+.nav .logo h2{height: 40px;line-height: 40px;}
+.nav nav ul li{float:left;background-color: #57D2F7;}
+.nav nav ul li a{width: 100px;height: 40px;line-height: 40px;display: inline-block;text-align: center;font-size: 14px;font-weight: bold;color: #FFF;letter-spacing: 5px;}
+.nav nav ul li:hover, .nav nav ul li.active{background-color: #35AFD5;}
+/*search*/
+.searchBox{background-color: #D3E5F9;}
+.searchBox .box{padding: 10px 0;width: 566px;margin: 0 auto;}
+.searchBox .inputBox input{width: 475px;height: 30px;line-height: 30px;padding-left: 10px;}
+.searchBox .inputBox button{height: 30px;border:0;background-color:#57D2F7;cursor: pointer;width: 80px;}
+.searchBox .inputBox button:hover{background-color: #35AFD5;}
+.searchBox .hotWords{color: #888;margin-top: 10px;}
+/*.searchBox .hotWords a{margin-right: 10px;}*/
+.searchBox .hotWords a:hover{color:#f87412; }
