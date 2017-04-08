@@ -1,5 +1,6 @@
 /*public*/
-.commonWidth{width: 1125px;margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+body{background: #f6f6f6;}
+.commonWidth{width: 1000px;margin-left: auto;margin-right: auto;margin-bottom: 20px;}
 .mb20{margin-bottom: 20px;}
 .mb10{margin-bottom: 10px;}
 .mr0{margin-right: 0;}
@@ -8,15 +9,25 @@
 .nav{margin-top: 20px;}
 .nav .logo{margin-right: 20px;}
 .nav .logo h2{height: 40px;line-height: 40px;}
-.nav nav ul li{float:left;background-color: #57D2F7;}
-.nav nav ul li a{width: 100px;height: 40px;line-height: 40px;display: inline-block;text-align: center;font-size: 14px;font-weight: bold;color: #FFF;letter-spacing: 5px;}
-.nav nav ul li:hover, .nav nav ul li.active{background-color: #35AFD5;}
+.nav nav ul li{float:left;/*background-color: #57D2F7;*/}
+.nav nav ul li a{width: 100px;height: 40px;line-height: 40px;display: inline-block;text-align: center;font-size: 14px;font-weight: bold;/*color: #FFF;*/letter-spacing: 5px;}
+.nav nav ul li:hover, .nav nav ul li.active{/*background-color: #35AFD5;*/border-bottom: 2px solid #57D2F7;}
 /*search*/
 .searchBox{background-color: #D3E5F9;}
 .searchBox .box{padding: 10px 0;width: 566px;margin: 0 auto;}
-.searchBox .inputBox input{width: 475px;height: 30px;line-height: 30px;padding-left: 10px;}
-.searchBox .inputBox button{height: 30px;border:0;background-color:#57D2F7;cursor: pointer;width: 80px;}
+.searchBox .inputBox input{width: 475px;height: 30px;line-height: 30px;padding-left: 10px;border: #b7b7b7 solid 1px;border-right: none 0;}
+.searchBox .inputBox button{height: 32px;border:0;background-color:#57D2F7;cursor: pointer;width: 80px;font-weight: bold;color:#FFF;}
 .searchBox .inputBox button:hover{background-color: #35AFD5;}
 .searchBox .hotWords{color: #888;margin-top: 10px;}
-/*.searchBox .hotWords a{margin-right: 10px;}*/
-.searchBox .hotWords a:hover{color:#f87412; }
+.searchBox .hotWords a:hover{color:#f87412;}
+/*itemList*/
+.itemListNav{height: 38px;line-height: 38px;}
+.navTitle{border-left: 6px solid #35AFD5;font-size: 16px;padding-left: 15px;}
+.itemList .item{width: 320px;height: 410px;margin-left: 13px;background-color: #FFF;float: left;}
+.itemList .item:hover{box-shadow: #ccc 1px 1px 5px;}
+.itemList .item h3{font-size: 18px;line-height: 28px;padding: 15px 25px 0 25px;height: 65px;overflow: hidden;}
+.itemList .item p{font-size: 14px;padding: 0 25px;margin-bottom: 10px;line-height: 22px;height: 66px;color: #998;overflow: hidden;}
+.itemList .item p a{color:#35AFD5;}
+/*itemInfoBox*/
+.infoNav{border-bottom: 1px solid #ccc;padding-left: 20px;height: 30px; line-height: 30px;}
+.infoNav a{color:#35AFD5;font-size: 14px;}

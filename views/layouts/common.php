@@ -6,7 +6,7 @@ use yii\helpers\Url;
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>魔方百科</title>
+	<title>魔方百科 - 中国最大的魔方信息百科</title>
 	<?=Html::cssFile('@web/css/reset.css')?>
 
 	<?=Html::cssFile('@web/css/style.css')?>
@@ -40,6 +40,12 @@ use yii\helpers\Url;
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<?=$content?>
+
+	<div class="footer">
+		
 	</div>
 </body>
 </html>
