@@ -5,7 +5,7 @@
 			</div>
 		</div>
 		<div class="itemList">
-			<ul>
+			<ul class="clearfix">
 				<li class="item mb20">
 					<div class="itemImg">
 						<a href="#">

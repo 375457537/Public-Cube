@@ -45,7 +45,7 @@ use yii\helpers\Url;
 	<?=$content?>
 
 	<div class="footer">
-		
+		联系方式: nic0420@qq.com
 	</div>
 </body>
 </html>
